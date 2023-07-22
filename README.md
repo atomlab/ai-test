@@ -1,5 +1,11 @@
 # The simplest way to test AI
 
+**Requirements**
+- Installed docker
+- Installed [git-lfs](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage?platform=linux)
+
+**Setup**
+
 Clone this repo
 
 ```
@@ -26,7 +32,11 @@ git clone https://huggingface.co/gpt2
 Run the ai-test.py script
 
 ```
-docker run --rm -it -v ${PWD}/gpt2:/app -v ${PWD}/ai-test.py:/app/ai-test.py ai-test python ai-test.py
+docker run --rm -it \
+  -v ${PWD}/gpt2:/app \
+  -v ${PWD}/ai-test.py:/app/ai-test.py \
+  ai-test \
+  python ai-test.py
 ```
 
 Output
