@@ -28,3 +28,12 @@ Run the ai-test.py script
 ```
 docker run --rm -it -v ${PWD}/gpt2:/app -v ${PWD}/ai-test.py:/app/ai-test.py ai-test python ai-test.py
 ```
+
+Output
+```
+{'generated_text': "Hello, I'm a language model, I'm writing a new language for you. But first, I'd like to tell you about the language itself"}
+{'generated_text': "Hello, I'm a language model, and I'm trying to be as expressive as possible. In order to be expressive, it is necessary to know"}
+{'generated_text': "Hello, I'm a language model, so I don't get much of a license anymore, but I'm probably more familiar with other languages on that"}
+{'generated_text': "Hello, I'm a language model, a functional model... It's not me, it's me!\n\nI won't bore you with how"}
+{'generated_text': "Hello, I'm a language model, not an object model.\n\nIn a nutshell, I need to give language model a set of properties that"}
+```
