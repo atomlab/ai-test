@@ -1,4 +1,4 @@
-# ai-test
+# The simplest way to test AI
 
 Clone this repo
 
