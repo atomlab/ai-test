@@ -23,7 +23,7 @@ Build a base docker image with required dependencies
 docker build -t ai-test -f ./Dockerfile .
 ```
 
-Clone a repository with AI models. It may take some time to load large files with models.
+Clone a repository with AI models. It may take some time to load large files with models. Full size 5-6GB.
 
 For example, take model https://huggingface.co/gpt2
 
