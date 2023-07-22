@@ -23,11 +23,19 @@ Build a base docker image with required dependencies
 docker build -t ai-test -f ./Dockerfile .
 ```
 
-Clone a repository with AI models
+Clone a repository with AI models. It may take some time to load large files with models.
+
+For example, take model https://huggingface.co/gpt2
 
 ```
+git lfs install
 git clone https://huggingface.co/gpt2
 ```
+
+If you want to clone without large files – just their pointers prepend your git clone with the following env var:
+```
+GIT_LFS_SKIP_SMUDGE=1
+``````
 
 Run the ai-test.py script
 
