@@ -1,7 +1,19 @@
 # ai-test
 
+Clone this repo
+
+```
+https://github.com/atomlab/ai-test.git
+```
+
+Go to directory
+```
+cd ./ai-test
+```
+
 Build a base docker image with required dependencies
 ```
+
 docker build -t ai-test -f ./Dockerfile .
 ```
 
